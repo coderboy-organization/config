@@ -1,0 +1,44 @@
+[general]
+# import = ["~/.config/alacritty/themes/themes/gruvbox_dark.toml"]
+
+[font]
+size = 19
+offset = { x = 3, y = 7 }
+
+[font.normal]
+#family = "UbuntuMono Nerd Font Mono"
+family = "Hack Nerd Font"
+
+[colors.primary]
+# background = "#000000"
+# foreground = "#00FF00"
+
+[window]
+decorations = "Transparent"
+# dimensions = { columns =  20, lines = 10 }
+opacity = 0.9
+# startup_mode = "Fullscreen"
+decorations_theme_variant = "Dark"
+option_as_alt = "Both"
+padding = { x = 0, y = 7 }
+blur = true  # Default: false
+title = "Sabbir Hossain Shuvo - Alacritty"  # Default: "Alacritty"
+
+[bell]
+# color = "#003300"
+duration = 32
+animation = "Ease"
+
+[selection]
+save_to_clipboard = true
+
+[cursor]
+style = { shape = "Beam", blinking = "On" }
+blink_interval = 300
+blink_timeout = 7
+
+[terminal]
+osc52 = "CopyPaste"
+
+[mouse]
+hide_when_typing = true
